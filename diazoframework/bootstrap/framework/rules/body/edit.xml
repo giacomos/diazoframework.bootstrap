@@ -6,7 +6,7 @@
 
   <replace css:content=".managePortletsFallback">
     <div class="span12">
-      <xsl:aooly-templates css:select=".managePortletsFallback"/>
+      <xsl:apply-templates css:select=".managePortletsFallback"/>
     </div>
   </replace>
 
